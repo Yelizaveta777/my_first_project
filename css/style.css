@@ -56,10 +56,13 @@ header {
 
 }
 .link li{
+     display: flex;
     list-style-type: none;
+
 }
 .link li:before{
     display: inline-flex;
+
     content: "1";
     color: #FFFFFF;
     background: #1E1928;
