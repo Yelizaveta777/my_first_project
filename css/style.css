@@ -95,7 +95,7 @@ header {
     align-items: center;
     justify-content: center;
     margin-bottom: 80px;
-    
+
 
 
 }
@@ -412,6 +412,7 @@ button{
 
 .white_purple h4 {
     padding-top: 80px;
+    padding-bottom: 28px;
     color: #1E1928;
     text-align: center;
     font-family: 'Roboto', sans-serif;
