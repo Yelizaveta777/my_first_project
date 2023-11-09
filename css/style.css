@@ -104,7 +104,9 @@ max-width: 600px;
 
 
 .content_flex img{
+    max-width: 144px;
     margin-top: 88px;
+    margin-bottom: 144px;
 
 }
 .content_flex h3{
@@ -133,8 +135,300 @@ max-width: 600px;
     letter-spacing: 0.252px;
 
 }
+.main_banner article{
+    max-width: 549px;
+}
+.first_paragraph{
+    margin-bottom: 4px;
+    color: rgba(30, 25, 40, 0.80);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+    letter-spacing: 0.252px;
+}
+.second_paragraph{
+    margin-bottom: 28px;color:  rgba(30, 25, 40, 0.80);
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.252px;
+}
+.third_paragraph{
+    margin-bottom: 24px ;
+    color: #1E1928;
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.252px;">
+}
+form{
+    border-radius: 9999px;
+    background: #FFF;
+    padding: 8px 12px;
+    display: flex;
+    max-width: 448px;
+    justify-content: space-between
+}
+
+input{
+    width: 180px;
+    border:none;
+    background-color: transparent;
+    padding: 10px 19px;"
+    placeholder="(222) 123-4512";
+}
+button{
+    padding: 10px 32px;
+    border-radius: 9999px;
+    background:#1E1928;
+    color: #F4EFE9;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+.people_image{
+    max-width: 564px;
+    margin-bottom: -73px;
+}
+.people_image img{
+    display:  block;
+    width: 100%;
+}
+.orange{
+    padding-top: 270px;
+    padding-bottom: 78px;
+    background-color: #FFD394;
+    background-image: url('image/sideimage.png');
+    background-position: bottom -240px left 0;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.orange .container{
+    max-width: 1200px ;
+    margin: auto ;
+    display: flex;
+    justify-content: space-between;
+}
+.orange h2{
+    color: #1E1928;max-width: 600px;
+    margin-bottom: 372px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 58px;
+}
+.orange .link h5{
+    color: #1E1928;
+    margin-bottom: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0.252px;
+
+}
+.orange .link p{
+    color: rgba(30, 25, 40, 0.80);
+    margin-bottom:38px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.176px  ;
+}
+.relief{
+    max-width: 1200px ;
+    width: 100%;
+    border-radius: 8px;
+    margin: auto ;
+    display: flex;
+    justify-content: center;
+    background-color:rgba(255, 255, 255, 1) ;
+    position: absolute;
+    top:-150px;
+    left: calc(50% - 600px);
+}
+.relief h3{
+    color: #1E1928;text-align: center;
+    margin: 80px 0px 28px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+}
+.relief p{
+    margin-bottom: 20px;
+    color: rgba(30, 25, 40, 0.80);
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.252px;
+}
+.relief_link{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.relief_link a{
+
+    padding: 10px 33px;
+    border-radius: 9999px;
+    border: 1px solid #1E1928;
+    text-decoration: none;
+    color: #1E1928;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.gallery h4{
+    margin-bottom: 80px;
+    color: #1E1928;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 152.941% */
+    letter-spacing: 0.252px;
+}
+.gallery_picture {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+
+}
+
+.gallery_picture img{
+    border-radius: 8px;
+    margin-bottom: 80px;
+
+}
+.gallery_link{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gallery_link a{
+
+    border-radius: 9999px;
+    border: 1px solid #1E1928;
+    text-decoration: none;
+    color: #1E1928;
+    text-align: center;
+    padding: 10px 33px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    margin-bottom: 224px;
+}
+.purple{
+    background: #592141;
+    padding-top: 224px;
+    padding-bottom: 184px;
+    position: relative;
+
+}
+.purple .container{
+    max-width: 828px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.purple h5{
+    color: #F4EFE9;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+    letter-spacing: 0.252px;
+}
+.purple_quotes{
+    padding-top: 36px;
+    color: #F4EFE9;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 96px; /* 100% */
+}
+.purple_main{
+    padding-bottom: 32px;
+    color: #F4EFE9;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px; /* 120% */
+}
+.purple_name{
+    color: #F4EFE9;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 160% */
+}
+.white_purple {
+    max-width: 1200px ;
+    width: 100%;
+    border-radius: 8px;
+    margin: auto ;
+    display: flex;
+    justify-content: center;
+    background-color:rgba(255, 255, 255, 1) ;
+    position: absolute;
+    top:-150px;
+    left: calc(50% - 600px);
+}
 
 
+
+.white_purple h4 {
+    padding-top: 80px;
+    color: #1E1928;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px; /* 131.25% */
+}
+.white_purple p{
+    padding-bottom: 76px;
+    color: rgba(30, 25, 40, 0.80);
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 176.471% */
+    letter-spacing: 0.252px;
+}
 
 
 
