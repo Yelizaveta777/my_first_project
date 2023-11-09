@@ -95,11 +95,13 @@ header {
     align-items: center;
     justify-content: center;
     margin-bottom: 80px;
+    
 
 
 }
 .content_flex .container{
-max-width: 600px;
+
+ max-width: 600px;
 }
 
 
