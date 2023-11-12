@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 body {
     background-color: #F4EFE9;
 }
@@ -19,6 +20,9 @@ header {
 .d-flex{
     display: flex;
     justify-content: space-between;
+}
+.d-flex li {
+    margin-left: 40px;
 }
 #navigation{
     display: flex;
@@ -50,8 +54,7 @@ header {
     font-size: 48px;
     font-style: normal;
     font-weight: 400;
-    line-height: 58px;
-    margin-bottom: 24px;"
+    line-height: 58px;"
 }
 .link{
 
@@ -170,16 +173,15 @@ header {
     letter-spacing: 0.252px;">
 }
 form{
+    max-width: 424px;
     border-radius: 9999px;
     background: #FFF;
     padding: 8px 12px;
     display: flex;
-    max-width: 448px;
     justify-content: space-between
 }
 
 input{
-    width: 180px;
     border:none;
     background-color: transparent;
     padding: 10px 19px;"
@@ -240,7 +242,7 @@ button{
 }
 .orange .link p{
     color: rgba(30, 25, 40, 0.80);
-    margin-bottom:38px;
+    margin-bottom: 46px;
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -327,6 +329,7 @@ button{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-bottom: 294px;
 }
 .gallery_link a{
 
@@ -341,11 +344,11 @@ button{
     font-style: normal;
     font-weight: 400;
     line-height: 20px; /* 142.857% */
-    margin-bottom: 224px;
+
 }
 .purple{
     background: #592141;
-    padding-top: 224px;
+    padding-top: 144px;
     padding-bottom: 184px;
     position: relative;
 
