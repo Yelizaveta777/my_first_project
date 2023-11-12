@@ -3,19 +3,7 @@
         margin-left: 15px;
         margin-right: 15px;
     }
-
-    .main_banner .container h1 {
-        margin-left: 15px;
-
-    }
-
-    .main_banner .container p {
-        margin-left: 15px;
-    }
-
-    .form {
-        margin-left: 15px;
-    }
+    
 
     .relief {
         display: block;
@@ -61,7 +49,9 @@
         padding-left: 15px;
     }
 @media screen and (max-width: 767px){
-
+  header{
+      margin-bottom: 0px;
+ }
     header nav{
         display: none;
     }
@@ -71,18 +61,16 @@
     }
 
     .main_banner .container h1{
-        
+
         font-size: 26px;
     }
     .main_banner .container p{
         font-size: 12px;
         margin-bottom: 12px;
     }
-
-    .button{
-        padding: 0px;
-        font-size: 5px;
-    }
+.form{
+    justify-content: center;
+}
 
     .orange{
         padding-top: 15px;
@@ -132,6 +120,9 @@
         margin: auto;
         padding: 20px 0;
         border-radius: inherit;
+    }
+    .white_purple h4{
+        font-size: 21px;
     }
 
 .purple{
