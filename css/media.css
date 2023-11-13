@@ -63,6 +63,7 @@
         display: none;
     }
     .main_banner .container{
+        display: inherit;
         padding: 0 15px;
 
     }
@@ -75,9 +76,7 @@
         font-size: 12px;
         margin-bottom: 12px;
     }
-.form{
-    justify-content: center;
-}
+
 
     .orange{
         padding-top: 15px;
@@ -97,6 +96,12 @@
         font-size: 38px;
 
     }
+    .link li:before{
+        margin-right: 15px;
+        width: 20px;
+        height: 20px;
+    }
+
     .relief{
         display: block;
         position: inherit;
@@ -153,4 +158,13 @@
 
 
 }
+}
+@media screen and (max-width: 431px){
+    .form{
+        padding: inherit;
+
+    }
+    .button{
+        padding: 6px 12px ;
+    }
 }
