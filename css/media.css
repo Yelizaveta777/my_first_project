@@ -35,6 +35,9 @@
         display: block;
 
     }
+    .gallery_picture img{
+        padding-right: 15px;
+    }
     .purple{
         padding-top: 20px;
         padding-bottom: 0px;
@@ -133,6 +136,9 @@
     }
     .gallery_link{
         padding-bottom: 150px;
+    }
+    .gallery_picture img{
+        padding-right: 15px;
     }
     .white_purple{
         display: block;

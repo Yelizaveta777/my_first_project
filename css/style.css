@@ -319,14 +319,19 @@ button{
     justify-content: space-between;
 
 }
+.gallery_picture a{
+    max-width: 144px;
+    display: inline-block;
+}
+
 
 .gallery_picture img{
     border-radius: 8px;
     margin-bottom: 80px;
 
 }
-.gallery_link{
 
+.gallery_link{
     display: flex;
     align-items: center;
     justify-content: center;
