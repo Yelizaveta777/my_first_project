@@ -146,7 +146,7 @@
         display: block;
     }
     .gallery_link{
-        padding-bottom: 150px;
+        padding-bottom: 0px;
     }
     .gallery_picture img{
         padding-right: 15px;
