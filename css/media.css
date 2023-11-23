@@ -120,8 +120,19 @@
         padding: 25px 0;
         border-radius: inherit;
     }
+    .content_main{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
     .content_flex{
-        margin-bottom: 20px;
+        display: block;
+
+    }
+    .content_flex .container{
+        margin: 0;
+    }
+    .content_flex .container img{
+        max-width: 300px;
     }
     .content_flex h3{
         margin-bottom: 15px;
@@ -156,6 +167,13 @@
     padding-bottom: 0px;
     position: inherit;
 
+}
+.purple h5{
+    padding-top: 30px;
+
+}
+.purple .purple_name{
+    padding-bottom: 30px;
 }
 .purple_quotes{
     padding-top: 16px;
