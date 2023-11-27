@@ -450,6 +450,7 @@ button{
     background-color: #FFFFFF;
 }
 .faq h4{
+    padding-bottom: 15px;
     color: black;
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -483,6 +484,7 @@ button{
 .ui-accordion-header .ui-icon{
     position: absolute;
     right: 40px;
+
     background-image: none;
 }
  .faq .ui-accordion .ui-accordion-header .ui-icon:before{
