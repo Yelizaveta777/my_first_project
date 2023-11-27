@@ -138,7 +138,7 @@ header {
     font-style: normal;
     font-weight: 400;
     line-height: 30px; /* 166.667% */
-    letter-spacing: 0.252px;
+    letter-spacing:0.252px;
 
 }
 .main_banner article{
@@ -445,6 +445,86 @@ button{
     line-height: 30px; /* 176.471% */
     letter-spacing: 0.252px;
 }
+.faq{
+    padding: 100px;
+    background-color: #FFFFFF;
+}
+.faq h4{
+    color: black;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 65px;
+    font-style: normal;
+}
+.faq .ui-accordion .ui-accordion-header{
+    background: #FFFFFF;
+    border: solid 2px black;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 15px 0 0 0;
+}
+
+.faq .ui-accordion .ui-accordion-header.ui-state-active{
+    color: black;
+   border-radius: 15px 15px 0 0;
+    border-bottom: none;
+    background-color: #ffffe1;
+
+
+}
+.ui-accordion .ui-accordion-content-active{
+    border-left: solid 2px black;
+    border-right: solid 2px black;
+    border-bottom: solid 2px black;
+    border-top: none;
+    background-color: #ffffe1;
+    border-radius: 0 0 15px 15px;
+}
+.ui-accordion-header .ui-icon{
+    position: absolute;
+    right: 40px;
+    background-image: none;
+}
+ .faq .ui-accordion .ui-accordion-header .ui-icon:before{
+     content: "";
+     display: block;
+     color: black;
+     width: 36px;
+     height: 36px;
+     background-image: url("../image/icon.svg");
+
+}
+.faq .ui-accordion .ui-accordion-header.ui-state-active .ui-icon:before{
+    content: "";
+    display: block;
+    color: black;
+    width: 36px;
+    height: 36px;
+    background-image: url("../image/icon_down.svg");
+}
+.ui-widget h3{
+
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 700;
+
+
+}
+.ui-accordion-content p{
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+
+
+
+
 
 
 
