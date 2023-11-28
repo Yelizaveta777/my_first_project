@@ -485,7 +485,7 @@ button{
 .ui-accordion-header .ui-icon{
     width: auto;
     position: absolute;
-    right: 30px;
+    right: 40px;
     background-image: none;
 }
  .faq .ui-accordion .ui-accordion-header .ui-icon:before{
