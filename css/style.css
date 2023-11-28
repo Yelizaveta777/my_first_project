@@ -463,6 +463,7 @@ button{
     padding: 15px;
     border-radius: 15px;
     margin: 15px 0 0 0;
+
 }
 
 .faq .ui-accordion .ui-accordion-header.ui-state-active{
@@ -482,27 +483,33 @@ button{
     border-radius: 0 0 15px 15px;
 }
 .ui-accordion-header .ui-icon{
+    width: auto;
     position: absolute;
-    right: 40px;
-
+    right: 30px;
     background-image: none;
 }
  .faq .ui-accordion .ui-accordion-header .ui-icon:before{
      content: "";
      display: block;
      color: black;
-     width: 36px;
-     height: 36px;
-     background-image: url("../image/icon.svg");
+      height: 30px;
+      width: 30px;
+     background-image: url("../image/icon_down (2).svg");
+
+
+
 
 }
 .faq .ui-accordion .ui-accordion-header.ui-state-active .ui-icon:before{
     content: "";
     display: block;
     color: black;
-    width: 36px;
-    height: 36px;
-    background-image: url("../image/icon_down.svg");
+    width: 30px;
+    height: 30px;
+    background-image: url("../image/icon-up.svg");
+
+
+
 }
 .ui-widget h3{
 
