@@ -15,9 +15,15 @@ header {
     max-width: 1200px ;
     margin: auto;
 
-
-
 }
+
+header .logo{
+    position: relative;
+    z-index: 100;
+}
+
+
+
 .d-flex{
     display: flex;
     justify-content: space-between;
@@ -470,7 +476,7 @@ button{
     color: black;
    border-radius: 15px 15px 0 0;
     border-bottom: none;
-    background-color: #ffffe1;
+    background-color: #F4EFE9;
 
 
 }
@@ -479,7 +485,7 @@ button{
     border-right: solid 2px black;
     border-bottom: solid 2px black;
     border-top: none;
-    background-color: #ffffe1;
+    background-color: #F4EFE9;
     border-radius: 0 0 15px 15px;
 }
 .ui-accordion-header .ui-icon{
