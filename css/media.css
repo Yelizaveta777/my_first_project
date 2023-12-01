@@ -80,6 +80,9 @@ header nav ul{
         padding: 0 15px;
 
     }
+    .main_banner article span{
+        display: none;
+    }
     .d-flex li {
     margin-left: 0px;
     }
