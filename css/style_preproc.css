@@ -121,8 +121,7 @@ body .item_link {
 .main_banner article {
   max-width: 549px;
 }
-
-.first_paragraph {
+.main_banner .first_paragraph {
   margin-bottom: 4px;
   color: rgba(30, 25, 40, 0.8);
   font-family: "Inter", sans-serif, "Roboto", sans-serif;
@@ -132,8 +131,7 @@ body .item_link {
   line-height: 30px; /* 187.5% */
   letter-spacing: 0.252px;
 }
-
-.second_paragraph {
+.main_banner .second_paragraph {
   margin-bottom: 28px;
   color: rgba(30, 25, 40, 0.8);
   font-family: "Inter", sans-serif, "Roboto", sans-serif;
@@ -143,8 +141,7 @@ body .item_link {
   line-height: 30px;
   letter-spacing: 0.252px;
 }
-
-.third_paragraph {
+.main_banner .third_paragraph {
   margin-bottom: 24px;
   color: #1E1928;
   font-family: "Inter", sans-serif, "Roboto", sans-serif;
@@ -197,7 +194,7 @@ form button {
   padding-top: 270px;
   padding-bottom: 78px;
   background-color: #FFD394;
-  background-image: url("image/sideimage.png");
+  background-image: url("../image/sideimage.png");
   background-position: bottom -240px left 0;
   background-repeat: no-repeat;
   position: relative;
@@ -228,6 +225,12 @@ form button {
   display: flex;
   list-style-type: none;
 }
+.orange .container .link li:nth-child(2):before {
+  content: "2";
+}
+.orange .container .link li:nth-child(3):before {
+  content: "3";
+}
 .orange .container .link li:before {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -245,12 +248,6 @@ form button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-.orange .container .link li:nth-child(2):before {
-  content: "2";
-}
-.orange .container .link li:nth-child(3):before {
-  content: "3";
 }
 .orange .container .link li h5 {
   color: #1E1928;
@@ -567,4 +564,203 @@ h3 {
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
+}
+
+.as_seen_on {
+  padding-top: 144px;
+  padding-bottom: 224px;
+  background: #EDE6DD;
+}
+.as_seen_on h4 {
+  padding-bottom: 64px;
+  color: #1E1928;
+  text-align: center;
+  font-family: "Inter", sans-serif, "Roboto", sans-serif;
+  font-size: 31px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 42px; /* 135.484% */
+}
+.as_seen_on .img_flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.start_your_trial {
+  padding-top: 264px;
+  padding-bottom: 138px;
+  background: #1E1928;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+.start_your_trial h4 {
+  text-align: center;
+  padding-bottom: 33px;
+  color: #FFF;
+  font-family: "Inter", sans-serif, "Roboto", sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 152.941% */
+  letter-spacing: 0.252px;
+}
+.start_your_trial p {
+  padding-top: 23px;
+  color: #EDE6DD;
+  text-align: center;
+  font-family: "Inter", sans-serif, "Roboto", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 166.667% */
+}
+
+.white_trial {
+  max-width: 1200px;
+  width: 100%;
+  border-radius: 8px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top: -130px;
+  left: calc(50% - 600px);
+}
+.white_trial h4 {
+  padding-top: 80px;
+  padding-bottom: 16px;
+  color: #1E1928;
+  text-align: center;
+  font-family: "Inter", sans-serif, "Roboto", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 42px; /* 131.25% */
+}
+.white_trial p {
+  padding-bottom: 80px;
+  color: rgba(30, 25, 40, 0.64);
+  text-align: center;
+  font-family: "Inter", sans-serif, "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 157.143% */
+  letter-spacing: 0.084px;
+}
+
+footer {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  background: #FFF;
+}
+footer .about_us {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+footer .about_us h5 {
+  padding-bottom: 16px;
+  color: #1E1928;
+  font-family: "Inter", sans-serif, "Roboto", sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; /* 152.941% */
+  letter-spacing: 0.252px;
+}
+footer .about_us ul {
+  list-style: none;
+}
+footer .about_us ul li {
+  padding-bottom: 16px;
+}
+footer .about_us a {
+  text-decoration: none;
+  color: rgba(30, 25, 40, 0.8);
+  font-family: "Inter", sans-serif, "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+footer .subscribe {
+  margin-top: 15px;
+  position: relative;
+}
+footer .subscribe img {
+  padding-left: 16px;
+}
+
+.sub_footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 114px;
+}
+.sub_footer .sub_about {
+  display: block;
+  max-width: 665px;
+}
+.sub_footer .sub_about p {
+  color: rgba(30, 25, 40, 0.64);
+  font-family: "Inter", sans-serif, "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 157.143% */
+  letter-spacing: 0.084px;
+  padding-bottom: 14px;
+}
+.sub_footer .sub_about .location {
+  color: rgba(30, 25, 40, 0.64);
+  font-family: "Inter", sans-serif, "Roboto", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 166.667% */
+}
+
+.app {
+  display: block;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.app img {
+  padding-right: 16px;
+}
+.app p {
+  padding-top: 20px;
+  color: rgba(30, 25, 40, 0.64);
+  font-family: "Inter", sans-serif, "Roboto", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 166.667% */
 }
